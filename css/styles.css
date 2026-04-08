@@ -19,7 +19,7 @@ body { color: var(--text-dark); background-color: var(--bg-light); line-height: 
 
 /* --- Tipografía --- */
 h1 { font-size: clamp(2.5rem, 5vw, 4.5rem); line-height: 1.1; margin-bottom: 30px; letter-spacing: -1px; }
-.gradient-text { background: linear-gradient(135deg, var(--primary), var(--secondary)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.gradient-text { background: linear-gradient(135deg, var(--primary), var(--secondary)); background-clip: text;-webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 .section-title { font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 60px; text-align: center; }
 .huge-text { font-size: clamp(2rem, 4vw, 3.5rem); margin-bottom: 20px; }
 
